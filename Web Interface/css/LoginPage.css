@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content-wrapper{
+    position: relative;
+    background-color: lightyellow;
+    border-radius: 10px;
+    width: max-content;
+    margin: auto;
+    padding: 30px;
+}
+#welcome-msg, #ask-login{
+    text-align: center;
+}
+.form-elements{
+    margin: auto;
+    width: max-content;
+    display: table;
+    list-style: none;
+}
+li{
+    display: table-row;
+}
+input{
+    display: table-cell;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+label{
+    display: table-cell;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 119, 255);
+    border: none;
+    color: white;
+    width: 100%;
+}
